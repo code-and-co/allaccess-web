@@ -739,6 +739,7 @@ a:focus {
 
 .navbar-links {
 	justify-content: flex-end;
+	margin-bottom: 30px;
 }
 
 .divider {
