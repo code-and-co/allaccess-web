@@ -1,1 +1,1 @@
-Public website of www.allaccessapp.com.
+www.allaccessapp.com
