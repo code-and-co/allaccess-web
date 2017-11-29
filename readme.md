@@ -1,1 +1,1 @@
-Public website:
+Public website of www.allaccessapp.com.
