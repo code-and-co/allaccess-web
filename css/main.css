@@ -773,6 +773,11 @@ main {
 	text-align: center;
 }
 
+.impressum {
+	margin: 0 auto;
+	width: 60vw;
+}
+
 .download-holder-1,
 .download-holder-2 {
 	font-size: 14px;
