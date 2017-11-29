@@ -737,11 +737,6 @@ a:focus {
 	align-items: initial;
 }
 
-.navbar-links {
-	justify-content: flex-end;
-	margin-bottom: 30px;
-}
-
 .divider {
 	opacity: .5;
 	margin-left: 10px;
@@ -756,6 +751,7 @@ a:focus {
 	color: #9b9df1;
 	text-decoration: none;
 	letter-spacing: 1px;
+	margin-bottom: 20px;
 }
 
 #header .partner-link:hover,
@@ -936,6 +932,7 @@ main {
 	-ms-transform: translateX(-50%);
 	transform: translateX(-50%);
 	background-color: #866fde;
+	text-align: center;
 }
 
 .visual-holder-1 .btn-default:before,
