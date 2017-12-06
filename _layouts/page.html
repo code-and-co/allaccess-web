@@ -12,13 +12,20 @@
 	<link rel="icon" type="image/png" sizes="32x32" href="{{ "/images/favicon-32x32.png" | absolute_url }}">
 	<link rel="icon" type="image/png" sizes="16x16" href="{{ "/images/favicon-16x16.png" | absolute_url }}">
 
+
+	<meta property="og:url"                content="http://allaccessapp.com/" />
+	<meta property="og:type"               content="website" />
+	<meta property="og:title"              content="AllAccess - the exclusive fanclub" />
+	<meta property="og:description"        content="All Access is the doorway to the exclusive fan clubs of your favorite stars. Follow your most beloved stars from social media, see what they’re up to and be the only one to receive exclusive content and intimate insights. Get offers and recommendations selected by your biggest stars just for you! Become one of the few, become a Superfan!" />
+	<meta property="og:image"              content="{{ "images/allaccessapp.com.png" | absolute_url }}" />
+
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-75779488-6"></script>
 	<script>
-	  window.dataLayer = window.dataLayer || [];
-	  function gtag(){dataLayer.push(arguments);}
-	  gtag('js', new Date());
-	  gtag('config', 'UA-75779488-6');
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'UA-75779488-6');
 	</script>
 </head>
 <body>
@@ -29,7 +36,7 @@
 					<img src="{{ "images/logo-1.svg" | absolute_url }}" alt="All Access" />
 				</a>
 			</div>
-      <a class="partner-link" href="{{ site.baseurl }}{% link influencer/index.html %}">Become a Partner</a>
+			<a class="partner-link" href="{{ site.baseurl }}{% link influencer/index.html %}">Become a Partner</a>
 		</header>
 		<main>
 			{{ content }}
