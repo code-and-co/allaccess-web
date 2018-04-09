@@ -32,24 +32,24 @@
 	<div id="wrapper" style="background-image: url('{{ "/images/bg-circule.svg" | absolute_url }}');">
 		<header id="header">
 			<div class="logo">
-				<a href="{{ site.baseurl }}{% link index.html %}">
+				<a href="{{ site.url }}{% link index.html %}">
 					<img src="{{ "images/logo-1.svg" | absolute_url }}" alt="All Access" />
 				</a>
 			</div>
-			<a class="partner-link" href="{{ site.baseurl }}{% link influencer/index.html %}">Become a Partner</a>
+			<a class="partner-link" href="{{ site.url }}/influencer">Become a Partner</a>
 		</header>
 		<main>
 			{{ content }}
 		</main>
 		<footer id="footer">
 			<div class="start-link">
-				<a href="{{ site.baseurl }}{% link influencer/index.html %}">Become a Partner</a>
+				<a href="{{ site.url }}{% link influencer/index.html %}">Become a Partner</a>
 			</div>
 			<div class="start-link">
 				<a href="https://www.instagram.com/all_access_app/" target="_blank" rel="noopener noreferrer">Find us on Instagram</a>
 			</div>
 			<div class="impress-link">
-				<a href="{{ site.baseurl }}{% link impressum/index.html %}">Impressum</a>
+				<a href="{{ site.url }}{% link impressum/index.html %}">Impressum</a>
 			</div>
 			<div class="copyright">
 				&#169; <a href="https://www.codeandco.com" target="_blank" rel="noreferrer nofollow">code&#38;co.</a> {{ 'now' | date: "%Y" }}
